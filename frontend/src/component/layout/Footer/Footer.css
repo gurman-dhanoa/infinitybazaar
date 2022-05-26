@@ -1,0 +1,103 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.footer {
+    background: #EDEAE7;
+    padding: 66px 7vw 40px 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer div{
+    min-width: 200px;
+    justify-content: center;
+}
+@media screen and (max-width:1170px){
+    .footer{
+        justify-content: center;
+        padding: 10px;
+    }
+    .foot-div{
+        margin: 25px;
+    }
+}
+
+.foot-logo h1 {
+    font-size: 27px;
+    font-family: "Roboto";
+}
+
+.foot-comp {
+    padding: 13px 0px;
+}
+
+.foot-comp p {
+    font-size: 13px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+.footer-buttons {
+    padding: 12px 0px;
+}
+
+.footer-buttons p {
+    font-size: 15px;
+    padding: 4px 0px;
+}
+
+.footer-input {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    display: inline-block;
+    width: 14vw;
+    min-width: 250px;
+}
+
+.footer-input-tick {
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 0px 8px 8px 0px;
+    background: black;
+}
+
+.footer-input-tick img {
+    color: #9e9b98;
+}
+
+.copyright {
+    color: #9e9b98;
+    font-size: 12px;
+}
+
+.footer-terms {
+    display: block;
+    margin: 10px 0px;
+}
+
+.footer-terms a {
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-size: 12px;
+    margin: 10px 2px;
+    padding: 1px;
+}
+
+.footer-terms a:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    border-width: 0 0 1px;
+    border-style: solid;
+}

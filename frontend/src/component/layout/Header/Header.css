@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 1vw;
+    background-color: #f8f6f4;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 1vw;
+}
+
+.nav-sub-cat {
+    margin: 0px 6px;
+    padding: 0px 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-sub-cat img{
+  height: 30px;
+}
+.nav-logo-img{
+  height: 40px;
+}
+
+.nav-sub-cat button {
+    font-size: 18px;
+    background: transparent;
+    padding: 0.2vw;
+    color: #000;
+}
+.cat-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  text-decoration: none;
+  color: #000;
+}
+.cat-btn:hover img{
+    animation: mymove 1s;
+}
+
+.nav-sub-cat h1 a{
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-search-button {
+    font-size: 15px;
+    font-family: "Roboto";
+    padding: 5px;
+    border-radius: 6px;
+    color: #000;
+    border: 2px solid #000;
+    /* box-sizing: border-box; */
+}
+
+.nav-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-cart p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-bg {
+    background: white;
+    padding: 4px 0.8vw;
+    border-radius: 6px;
+    box-shadow: 0.5px 0.5px 0px 0px #00000063;
+}
+
+.nav-sub-cat img {
+    margin-right: 5px
+}
+@media screen and (max-width:747px){
+    #big-nav{
+        display: none;    
+}}
+@media screen and (max-width:552px){
+    #big-nav-search{
+        display: none;    
+}}
+
+ /* Dropdown Button */
+ .dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 7px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+
+  @keyframes mymove {
+    100%{transform: rotate(180deg);}
+  }
+  @keyframes mymoveback {
+    100%{transform: rotate(-180deg);}
+  }
+  .speedDial {
+    position: fixed;
+    right: 1vmax;
+    top: 0.2vmax;
+  }
+  
+  .speedDialIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+  }
+  
